@@ -1,4 +1,0 @@
-#typed
-{
-    display: inline;
-}

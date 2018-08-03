@@ -1,318 +1,71 @@
-[![Build Status](https://travis-ci.org/mattboldt/typed.js.svg?branch=typed-2.0)](https://travis-ci.org/mattboldt/typed.js)
-[![Code Climate](https://codeclimate.com/github/mattboldt/typed.js/badges/gpa.svg)](https://codeclimate.com/github/mattboldt/typed.js)
-[![GitHub release](https://img.shields.io/github/release/mattboldt/typed.js.svg)]()
-[![npm](https://img.shields.io/npm/dt/typed.js.svg)](https://img.shields.io/npm/dt/typed.js.svg)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-[![Gratipay User](https://img.shields.io/gratipay/user/mattboldt.svg)](https://gratipay.com/Typed.js/)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mattboldt/typed.js/master/LICENSE.txt)
+# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
-<img src="https://raw.githubusercontent.com/mattboldt/typed.js/master/logo-cropped.png" width="450px" title="Typed.js" />
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-### [View the Live Demo](http://www.mattboldt.com/demos/typed-js/) | [View All Demos](http://www.mattboldt.com/typed.js) | [View Full Docs](http://www.mattboldt.com/typed.js/docs) | [mattboldt.com](http://www.mattboldt.com)
+## Preview
 
-Typed.js is a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
+[![Freelancer Preview](https://startbootstrap.com/assets/img/templates/freelancer.jpg)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
 
----
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
 
-Installation
-------------
+## Status
 
-#### NPM
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
 
-~~~
-npm install typed.js
-~~~
+## Download and Installation
 
-#### Yarn
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
+* Install via npm: `npm i startbootstrap-freelancer`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
 
-~~~
-yarn add typed.js
-~~~
+## Usage
 
-#### Bower
+### Basic Usage
 
-~~~
-bower install typed.js
-~~~
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-#### Setup
+### Advanced Usage
 
-This is really all you need to get going.
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-~~~ javascript
-// Can also be included with a regular script tag
-import Typed from 'typed.js';
+#### Gulp Tasks
 
-var options = {
-  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-  typeSpeed: 40
-}
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-var typed = new Typed(".element", options);
-~~~
+## Bugs and Issues
 
-Wonderful sites using Typed.js
----
-https://slack.com/
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
-https://envato.com/
+## Custom Builds
 
-https://productmap.co/
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-https://www.typed.com/
+## About
 
-https://apeiron.io
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-https://git.market/
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-http://allison.house/404
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-http://www.maxcdn.com/
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-https://commando.io/
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-http://testdouble.com/agency.html
+## Copyright and License
 
-http://www.stephanemartinw.com/
-
-http://www.trelab.fi/en/
-
-http://jessejohnson.github.io/
-
-
----
-
-### Strings from static HTML (SEO Friendly)
-Rather than using the `strings` array to insert strings, you can place an HTML `div` on the page and read from it.
-This allows bots and search engines, as well as users with JavaScript disabled, to see your text on the page.
-
-~~~ javascript
-<script>
-  var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings'
-  });
-</script>
-~~~
-
-~~~ html
-<div id="typed-strings">
-    <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-    <p>It <em>types</em> out sentences.</p>
-</div>
-<span id="typed"></span>
-~~~
-
-### Type Pausing
-
-You can pause in the middle of a string for a given amount of time by including an escape character.
-
-~~~ javascript
-var typed = new Typed(".element", {
-  // Waits 1000ms after typing "First"
-  strings: ["First ^1000 sentence.", "Second sentence."]
-});
-~~~
-
-### Smart Backspacing
-
-In the following example, this would only backspace the words after "This is a"
-
-~~~ javascript
-var typed = new Typed(".element", {
-  strings: ["This is a JavaScript library", "This is an ES6 module"],
-  smartBackspace: true // Default value
-});
-~~~
-
-### Bulk Typing
-
-The following example would emulate how a terminal acts when typing a command and seeing its result. 
-
-~~~ javascript
-var typed = new Typed(".element", {
-  strings: [
-    "git push --force ^1000\n `pushed to origin with option force`"
-  ]
-});
-~~~
-
-### CSS
-
-CSS animations are built upon initialzation in JavaScript. But, you can customize them at your will! These classes are:
-```css
-/* Cursor */
-.typed-cursor {}
-
-/* If fade out option is set */
-.typed-fade-out {}
-```
-
-### Use with ReactJS
-
-Check out this example React app using Typed.js in a component: https://jsfiddle.net/mattboldt/ovat9jmp/
-
-
-Customization
-----
-
-~~~ javascript
-var typed = new Typed(".element", {
-  /**
-   * @property {array} strings strings to be typed
-   * @property {string} stringsElement ID of element containing string children
-   */
-  strings: ['These are the default values...', 'You know what you should do?', 'Use your own!', 'Have a great day!'],
-  stringsElement: null,
-
-  /**
-   * @property {number} typeSpeed type speed in milliseconds
-   */
-  typeSpeed: 0,
-
-  /**
-   * @property {number} startDelay time before typing starts in milliseconds
-   */
-  startDelay: 0,
-
-  /**
-   * @property {number} backSpeed backspacing speed in milliseconds
-   */
-  backSpeed: 0,
-
-  /**
-   * @property {boolean} smartBackspace only backspace what doesn't match the previous string
-   */
-  smartBackspace: true,
-
-  /**
-   * @property {boolean} shuffle shuffle the strings
-   */
-  shuffle: false,
-
-  /**
-   * @property {number} backDelay time before backspacing in milliseconds
-   */
-  backDelay: 700,
-
-  /**
-   * @property {boolean} fadeOut Fade out instead of backspace
-   * @property {string} fadeOutClass css class for fade animation
-   * @property {boolean} fadeOutDelay Fade out delay in milliseconds
-   */
-  fadeOut: false,
-  fadeOutClass: 'typed-fade-out',
-  fadeOutDelay: 500,
-
-  /**
-   * @property {boolean} loop loop strings
-   * @property {number} loopCount amount of loops
-   */
-  loop: false,
-  loopCount: Infinity,
-
-  /**
-   * @property {boolean} showCursor show cursor
-   * @property {string} cursorChar character for cursor
-   * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
-   */
-  showCursor: true,
-  cursorChar: '|',
-  autoInsertCss: true,
-
-  /**
-   * @property {string} attr attribute for typing
-   * Ex: input placeholder, value, or just HTML text
-   */
-  attr: null,
-
-  /**
-   * @property {boolean} bindInputFocusEvents bind to focus and blur if el is text input
-   */
-  bindInputFocusEvents: false,
-
-  /**
-   * @property {string} contentType 'html' or 'null' for plaintext
-   */
-  contentType: 'html',
-
-  /**
-   * All typing is complete
-   * @param {Typed} self
-   */
-  onComplete: (self) => {},
-
-  /**
-   * Before each string is typed
-   * @param {number} arrayPos
-   * @param {Typed} self
-   */
-  preStringTyped: (arrayPos, self) => {},
-
-  /**
-   * After each string is typed
-   * @param {number} arrayPos
-   * @param {Typed} self
-   */
-  onStringTyped: (arrayPos, self) => {},
-
-  /**
-   * During looping, after last string is typed
-   * @param {Typed} self
-   */
-  onLastStringBackspaced: (self) => {},
-
-  /**
-   * Typing has been stopped
-   * @param {number} arrayPos
-   * @param {Typed} self
-   */
-  onTypingPaused: (arrayPos, self) => {},
-
-  /**
-   * Typing has been started after being stopped
-   * @param {number} arrayPos
-   * @param {Typed} self
-   */
-  onTypingResumed: (arrayPos, self) => {},
-
-  /**
-   * After reset
-   * @param {Typed} self
-   */
-  onReset: (self) => {},
-
-  /**
-   * After stop
-   * @param {number} arrayPos
-   * @param {Typed} self
-   */
-  onStop: (arrayPos, self) => {},
-
-  /**
-   * After start
-   * @param {number} arrayPos
-   * @param {Typed} self
-   */
-  onStart: (arrayPos, self) => {},
-
-  /**
-   * After destroy
-   * @param {Typed} self
-   */
-  onDestroy: (self) => {}
-});
-~~~
-
-
-## Contributing
-
-### [View Contribution Guidelines](./.github/CONTRIBUTING.md)
-
-end
----
-
-Thanks for checking this out. If you have any questions, I'll be on [Twitter](http://www.twitter.com/atmattb).
-
-If you're using this, let me know! I'd love to see it.
-
-It would also be great if you mentioned me or my website somewhere. [www.mattboldt.com](http://www.mattboldt.com)
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
