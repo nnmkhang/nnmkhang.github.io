@@ -321,6 +321,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
+  height: 50px;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #222831;
